@@ -1,0 +1,176 @@
+body {
+    background-color:;
+    display: flex;
+    flex-direction: column;
+    font-family: "Raleway", Helvetica, sans-serif;
+}
+#header-img{
+    width: 8rem;
+    height: 8rem;
+    max-width: 300px;
+    display: flex;
+    margin-left: 20px;
+}
+
+header {
+    position: fixed;
+    width: 100%;
+    background-color: hsl(45, 50%, 90%);
+    display: grid;
+    grid-template-columns: 300px 1fr;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    padding-top: 5px;
+}
+
+#nav-bar {
+    grid-column: 2;
+    align-self: center;
+    justify-self: right;
+    display: flex;
+    margin-right: 5px;
+}
+  
+.nav-link {
+    text-decoration: inherit;
+    color: inherit;
+    margin: 5px;
+}
+
+#intro {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+h2{
+    padding-top: 120px;
+}
+
+#intro h2 {
+    margin-bottom: 30px;
+}
+  
+#form {
+    display: grid;
+    grid-template-rows: 1fr 1fr;
+    grid-gap: 10px;
+}
+
+#features {
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+  
+.feature-section {
+    display: grid;
+    grid-template-columns: 100px 1fr;
+    align-items: center;
+}
+
+.feature-img {
+    width: 70%;
+    justify-self: center;
+    align-self: start;
+    margin-top: 115px;
+}
+
+#jordan{
+    width: 200px;
+    margin: auto;
+    padding-left: 115px;
+    
+}
+
+#jordan1{
+    width: 200px;
+    padding-left: 115px;
+}
+
+#jordan2{
+    width: 200px;
+    padding-left: 100px;
+}
+
+#video {
+    margin: auto;
+    max-width: 100%;
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
+  
+#products {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-gap: 10px;
+    margin-top: 10px;
+}
+  
+.product-section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-style: groove;
+    border-color: lightgray;
+    border-width: 1px;
+    padding-bottom: 10px;
+}
+  
+.product-header {
+    margin-bottom: -10px;
+}
+  
+.product-price {
+    font-size: 130%;
+    font-weight: bold;
+    text-align: center;
+}
+  
+.product-header h2{
+    padding-top: 0%;
+}
+
+footer {
+    background-color: hsl(45, 50%, 90%);
+    margin-top: 50px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    padding: 10px;
+    padding-bottom: 0px;
+}
+  
+#footer-nav {
+    display: flex;
+    grid-gap: 10px;
+}
+  
+footer p {
+    font-size: 85%;
+    color: gray;
+    margin-bottom: 10px;
+}
+  
+.btn {
+    text-transform: uppercase;
+    background-color: lavender;
+    font-weight: bold;
+    border-radius: 6px;
+    height: 20px;
+    
+}
+  
+.btn:hover {
+    transform: scale(1.05);
+    animation-name: background-color;
+    animation-duration: 150ms;
+    animation-fill-mode: forwards;
+}
+  
+#github{
+    color: black;
+    text-decoration: none;
+}
